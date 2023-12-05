@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const Ticket = require('./ticket.js');
 const Attendee = require('./attendee.js');
 
-const db = "mongodb+srv://abdelrahim:ourteamisgreat@cluster0.9vqtp10.mongodb.net/yourdatabase?retryWrites=true&w=majority";
+const db = "mongodb+srv://abdelrahim:********@cluster0.9vqtp10.mongodb.net/yourdatabase?retryWrites=true&w=majority";
 
 const connect = async () => {
     try {
